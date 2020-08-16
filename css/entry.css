@@ -26,13 +26,16 @@ body{
 	display: flex;
 	background: #D3BCC0;
 	color: #2F3061;
-	padding: 1%;
+	padding-bottom: 0;
 	flex-direction: row;
 	justify-content: center;
 	border: 1px solid black;
 	border-radius: 40px 0px 40px 0px;
 }
 
+#header p{
+	margin-right: 5%;
+}
 
 #big a{
 	text-decoration: none;
@@ -46,6 +49,7 @@ body{
 }
 
 #header img{
+	padding-top:5%;
 	max-width: 220px;
 	width:auto;
 	height: auto;
@@ -54,8 +58,7 @@ body{
 #header p {
 	font: normal 40px sans;
 	margin-left: 5%;
-	margin-top: 2%;
-	margin-bottom: 2%; }
+}
 
 #first_row{
 	display: flex;
