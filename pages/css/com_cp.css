@@ -1,0 +1,51 @@
+body{
+	margin: 0px;
+	background: #1b262c;
+}
+
+#particles-js{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#header{
+	display: flex;
+	justify-content:center;
+	background: #007db7;
+	color: #e1f5ff;
+	border: 1px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	font: normal 40px Sans;
+	border-radius: 40px 0px 40px 0px;
+}
+
+article{
+	display: flex;
+	justify-content: center;
+}
+
+table{
+	width: 50%;
+	margin-top: 3%;
+	font: normal 20px Tahoma;
+	border-spacing: 0 15px;
+}
+
+table a{
+	color: blue;	
+	display: block;
+	text-decoration: none;
+	padding: 4%;
+}
+
+td{
+	background:#6ebade;
+	border: 1px solid black;
+	border-radius: 40px 0px 40px 0px;
+	text-align: center;
+}
+

@@ -1,0 +1,17 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{ 
+	position: absolute;
+	bottom: 0px;
+	width: 100%; 
+	height: 110px; 
+	background-image: url(../img/bg-clouds.png);
+	/*background-position: 0px 0px;
+	background-repeat: repeat-x;
+	border: 1px solid red;*/
+
+	animation: animatedBackground 55s linear infinite;
+}
